@@ -30,10 +30,12 @@ export class ApplyFormComponent implements OnInit {
   }
 
   sendData() {
+    console.log("HERE");
     const formData = this.infoForm.getRawValue() as User;
     this.formService.add(formData).subscribe(perf => {
       alert('Thank you, for using VN!');
       window.location.reload();
     });
   }
+
 }
