@@ -1,20 +1,25 @@
 *{
     font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: .4px;
-    font-family:  "my-font"}
+    font-family:  "my-font";
+ }
   .apply-form-div{
     float: right;
     width: 50%;
     height: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: auto;
-
+    align-items: center;
   }
   h1{
-    font-family: kitap-font-light;
     font-weight:normal;
+  }
+h2{
+    font-family: "my-font";
+    color: black;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 24px;
   }
   .applyForm input,label{
     display: flex;
@@ -57,15 +62,10 @@
   .vn_home {
     float: left;
     width: 50%;
-    min-height: 100vh;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
+    margin: 0;
     flex-direction: column;
-    -ms-flex-align: center;
     align-items: center;
     padding: 60px 20px 55px;
     box-sizing: border-box;
