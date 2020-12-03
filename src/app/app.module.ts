@@ -7,6 +7,7 @@ import { ApplyFormComponent } from './apply-form/apply-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
+import {AlertModule} from 'ngx-bootstrap/alert'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {RouterModule} from '@angular/router';
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

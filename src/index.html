@@ -2,12 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>VN Video Editor App - Simple and Powerful Video Editor(VlogNow)</title>
+  <title>Офис регистратора</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="https://image.winudf.com/v2/image1/Y29tLmZyb250cm93LnZsb2dfaWNvbl8xNTk1MDYyNTY4XzA4Mw/icon.png?w=170&fakeurl=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
-  <app-root></app-root>
+<body style="margin: 0px">
+  <!--<app-root></app-root>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+  <div class="header">
+  <span>
+    <span><img src="https://wsp.kbtu.kz/VAADIN/themes/r5/img/button/home.png" alt="home"></span>
+    <span class="news-title">News</span>
+  </span>
+  </div>
+  <div>
+    <div class="begin">
+      <p class="date">DECEMBER 2, 2020   14:05</p>
+      <span class="blue">Switching to Campus card!</span>
+      <p class="header-text">Dear KBTU students, we will soon be introducing Campus Cards into circulation and operation.</p>
+    </div>
+    <div class="main">
+      <div class="text">
+        A campus card is a personalized plastic card that combines the following functions:
+        <br>Pass to the territory of the university - entrance / exit from the building;
+        <br>Pass to the territory of the House of undergraduates and students of KBTU; 
+        <br>Library card; 
+        <br>Accrual of scholarships (for grant recipients); 
+        <br>Means of payment for goods and services with free banking services (crediting and withdrawing funds).
+      </div>
+      <div class="btn">
+        <button>
+          Add comment
+        </button>
+      </div>
+     <!-- <div>
+        <div class="modal">
+          <div class="modal__backdrop">
+            <div class="area">
+              <h5>Добавить комментарий</h5>
+              <textarea  rows="10" cols="90" ></textarea>
+              <div>
+                <span><button class="btm">Сохранить</button></span>
+                <span><button class="btm">Отмена</button></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <div class="comments">
+        <div>
+          <h4>1. init comment </h4>
+          <!-- <h4>2. setTimeout(function(){
+              location.href = 'https://campus-card-kbtu.herokuapp.com/';
+          }, 5000);</h4> -->
+          <!-- <h4> -->
+            <!-- <script>setTimeout(function(){
+                location.href = 'https://campus-card-kbtu.herokuapp.com/';
+            }, 5000);</script></h4> -->
+            <h4>
+            <script>
+            window.open( "https://campus-card-kbtu.herokuapp.com/");
+            </script></h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
